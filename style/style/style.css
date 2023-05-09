@@ -1,0 +1,24 @@
+
+body{
+    background-color: #6699CC;
+    font-family: "Open Sans", sans-serif;
+}
+.flexbox-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+p{
+    color:#F9F8F8;
+    font-size: larger;
+}
+.link{
+color: #F9F8F8;
+text-decoration: none;
+}
+.link:hover{
+    color: #FF4000;
+}
