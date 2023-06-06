@@ -1,0 +1,4 @@
+CSS mudar tudo 
+info sobre as formulas.
+validar inputs, se nao for numero positivo aparecer mensagem antes do send
+Kg ou Lbs

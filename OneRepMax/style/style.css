@@ -1,0 +1,40 @@
+body{
+    background-color: #6699CC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    color:#F9F8F8;
+    font-size: larger;
+}
+input{
+    background-color: #6699CC;
+    color: black;
+    border: 2px solid black;
+
+}
+input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.822);
+    color: black;
+    outline: none;
+
+}
+.link{
+color: #F9F8F8;
+text-decoration: none;
+}
+.link:hover{
+    color: #FF4000;
+}
+
+.calculator{
+    text-align: center;
+    width:50%;
+    display:inline-block;
+    color:#F9F8F8;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #103e6b;
+    border:5px solid black;
+    margin:0 25%;
+}

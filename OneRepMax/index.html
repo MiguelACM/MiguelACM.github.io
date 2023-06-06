@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1RM Calculator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style/style.css">
+        <script src="js/main.js" >
+        </script>
+    </head>
+
+    <body> 
+        <main>
+            <div class="calculator" >
+                <h1>One Rep Max Calculator</h1>
+                <p>Use this as a guideline and not as a true 1RM</p>
+                <label for="measure">Measure</label>
+                <select name="measure" id="measure">
+                    <option value="kg">Kg</option>
+                    <option value="lbs">Lbs</option>
+                </select>
+                <br>
+                <label for="weight">Weight</label>
+                <input id="weight" placeholder="Enter the weight">
+                <br>
+                <label for="reps">Repetitions</label>
+                <input id="reps" placeholder="Number of reps">
+                <br>
+                <button onclick="ORM()">Calculate</button>
+                <h2 id="resposta"></h2>
+            </div> 
+            <div class="info"></div>           
+        </main>
+    </body>
+</html>
